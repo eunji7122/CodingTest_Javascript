@@ -32,7 +32,7 @@ function solution(s) {
   return answer;
 }
 
-// console.log(solution("[](){}")); // 3
-// console.log(solution("}]()[{")); // 2
-// console.log(solution("[)(]")); // 0
+console.log(solution("[](){}")); // 3
+console.log(solution("}]()[{")); // 2
+console.log(solution("[)(]")); // 0
 console.log(solution("{(["));
